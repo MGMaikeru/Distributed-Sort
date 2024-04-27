@@ -68,7 +68,7 @@ public class SubServer {
     private static void registerWorker(SenderPrx sender, ReceiverPrx receiver, String username,
             String hostname) {
         // Mensaje de registro del Worker
-        String message = username + "-" + hostname + "-" + "register as SubServer";
+        String message = username + "-" + hostname + "-" + "register as worker";
 
         // Envío del mensaje al servidor
         asyncTask(message, sender, receiver);

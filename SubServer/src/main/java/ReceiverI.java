@@ -65,8 +65,6 @@ public class ReceiverI implements Caller.Receiver {
         // Imprime un mensaje indicando que el archivo ha sido leído
         System.out.println("The file has been read.");
         // Procesa los datos leídos y los ordena
-        System.out.println("esta es la lista del sub 2");
-        System.out.println(dataList.size());
         sortedList = quickSort.quickSort(dataList);
         // Imprime un mensaje indicando que el archivo fue ordenado
         System.out.println("The list was ordered");
